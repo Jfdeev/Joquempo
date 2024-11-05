@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .escolhas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .escolhas button{
+    font-size: 1.0rem;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+
+  .escolhas button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .escolhas button:active {
+    transform: scale(0.95);
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  #resultadoJogo {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  #vencedor {
+    font-size: 1.2rem;
+    color: #ff5733;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #777;
+  }
